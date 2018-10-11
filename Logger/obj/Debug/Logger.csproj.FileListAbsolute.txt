@@ -1,0 +1,10 @@
+C:\gitProject\Exos9300LACLogModify\Logger\bin\Debug\NLog.config
+C:\gitProject\Exos9300LACLogModify\Logger\bin\Debug\Logger.dll
+C:\gitProject\Exos9300LACLogModify\Logger\bin\Debug\Logger.pdb
+C:\gitProject\Exos9300LACLogModify\Logger\bin\Debug\NLog.dll
+C:\gitProject\Exos9300LACLogModify\Logger\bin\Debug\NLog.xml
+C:\gitProject\Exos9300LACLogModify\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+C:\gitProject\Exos9300LACLogModify\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+C:\gitProject\Exos9300LACLogModify\Logger\obj\Debug\Logger.csproj.CopyComplete
+C:\gitProject\Exos9300LACLogModify\Logger\obj\Debug\Logger.dll
+C:\gitProject\Exos9300LACLogModify\Logger\obj\Debug\Logger.pdb

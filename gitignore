@@ -1,0 +1,45 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.licx
+*.orig
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+_ReSharper*/
+!**/packages/**
+#POS files
+_RES/
+SQL.POS/*.pdb
+SQL.POS/*.dacpac
+SQL.POS/*.dll
+#Ignore Installer work files
+*/_External/POS
+*/_External/SQL
+*/_External/GMMQ
+*/_Bin
+**/SqlPackage.Resources/*.dll
+**/Setup_GMMQ/outGMMQ.wxs
+**/Setup_Files/out.wxs
+**/obj/**
+/POSDatabase/POSDatabase/*.jfm
+/POSDatabase/POSDatabase/*.dbmdl
+/Replicator/*.jfm
+/Replicator/*.dbmdl
+/POSDatabaseStage/*.jfm
+/POSDatabaseStage/*.dbmdl
+**/.vs
