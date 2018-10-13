@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Contracts.SDO;
-namespace Contracts
+namespace Contracts.Interface
 {
   public  interface ICommutator
     {

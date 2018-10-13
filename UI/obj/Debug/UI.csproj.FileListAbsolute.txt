@@ -3,3 +3,8 @@ C:\gitProject\Exos9300LACLogModify\UI\bin\Debug\UI.pdb
 C:\gitProject\Exos9300LACLogModify\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\gitProject\Exos9300LACLogModify\UI\obj\Debug\UI.dll
 C:\gitProject\Exos9300LACLogModify\UI\obj\Debug\UI.pdb
+C:\gitExosLogModify\UI\bin\Debug\UI.dll
+C:\gitExosLogModify\UI\bin\Debug\UI.pdb
+C:\gitExosLogModify\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\gitExosLogModify\UI\obj\Debug\UI.dll
+C:\gitExosLogModify\UI\obj\Debug\UI.pdb

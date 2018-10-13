@@ -4,3 +4,9 @@ C:\gitProject\Exos9300LACLogModify\Contracts\obj\Debug\Contracts.csproj.CoreComp
 C:\gitProject\Exos9300LACLogModify\Contracts\obj\Debug\Contracts.dll
 C:\gitProject\Exos9300LACLogModify\Contracts\obj\Debug\Contracts.pdb
 C:\gitProject\Exos9300LACLogModify\Contracts\obj\Debug\Contracts.csprojAssemblyReference.cache
+C:\gitExosLogModify\Contracts\bin\Debug\Contracts.dll
+C:\gitExosLogModify\Contracts\bin\Debug\Contracts.pdb
+C:\gitExosLogModify\Contracts\obj\Debug\Contracts.csprojAssemblyReference.cache
+C:\gitExosLogModify\Contracts\obj\Debug\Contracts.csproj.CoreCompileInputs.cache
+C:\gitExosLogModify\Contracts\obj\Debug\Contracts.dll
+C:\gitExosLogModify\Contracts\obj\Debug\Contracts.pdb

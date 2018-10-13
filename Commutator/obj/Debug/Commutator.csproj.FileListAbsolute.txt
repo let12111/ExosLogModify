@@ -7,3 +7,17 @@ C:\gitProject\Exos9300LACLogModify\Commutator\obj\Debug\Commutator.pdb
 C:\gitProject\Exos9300LACLogModify\Commutator\bin\Debug\Contracts.dll
 C:\gitProject\Exos9300LACLogModify\Commutator\bin\Debug\Contracts.pdb
 C:\gitProject\Exos9300LACLogModify\Commutator\obj\Debug\Commutator.csproj.CopyComplete
+C:\gitExosLogModify\Commutator\bin\Debug\Commutator.dll
+C:\gitExosLogModify\Commutator\bin\Debug\Commutator.pdb
+C:\gitExosLogModify\Commutator\bin\Debug\Contracts.dll
+C:\gitExosLogModify\Commutator\bin\Debug\Contracts.pdb
+C:\gitExosLogModify\Commutator\obj\Debug\Commutator.csprojAssemblyReference.cache
+C:\gitExosLogModify\Commutator\obj\Debug\Commutator.csproj.CoreCompileInputs.cache
+C:\gitExosLogModify\Commutator\obj\Debug\Commutator.csproj.CopyComplete
+C:\gitExosLogModify\Commutator\obj\Debug\Commutator.dll
+C:\gitExosLogModify\Commutator\obj\Debug\Commutator.pdb
+C:\gitExosLogModify\Commutator\bin\Debug\NLog.config
+C:\gitExosLogModify\Commutator\bin\Debug\Common.dll
+C:\gitExosLogModify\Commutator\bin\Debug\Logger.dll
+C:\gitExosLogModify\Commutator\bin\Debug\Common.pdb
+C:\gitExosLogModify\Commutator\bin\Debug\Logger.pdb
