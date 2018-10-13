@@ -1,0 +1,6 @@
+C:\gitProject\Exos9300LACLogModify\Data\bin\Debug\Data.dll
+C:\gitProject\Exos9300LACLogModify\Data\bin\Debug\Data.pdb
+C:\gitProject\Exos9300LACLogModify\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\gitProject\Exos9300LACLogModify\Data\obj\Debug\Data.dll
+C:\gitProject\Exos9300LACLogModify\Data\obj\Debug\Data.pdb
+C:\gitProject\Exos9300LACLogModify\Data\obj\Debug\Data.csprojAssemblyReference.cache

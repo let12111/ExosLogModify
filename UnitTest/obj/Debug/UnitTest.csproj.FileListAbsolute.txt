@@ -1,0 +1,17 @@
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\UnitTest.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\UnitTest.pdb
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\gitProject\Exos9300LACLogModify\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\gitProject\Exos9300LACLogModify\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\gitProject\Exos9300LACLogModify\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\gitProject\Exos9300LACLogModify\UnitTest\obj\Debug\UnitTest.dll
+C:\gitProject\Exos9300LACLogModify\UnitTest\obj\Debug\UnitTest.pdb
+C:\gitProject\Exos9300LACLogModify\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache

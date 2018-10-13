@@ -1,0 +1,5 @@
+C:\gitProject\Exos9300LACLogModify\UI\bin\Debug\UI.dll
+C:\gitProject\Exos9300LACLogModify\UI\bin\Debug\UI.pdb
+C:\gitProject\Exos9300LACLogModify\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\gitProject\Exos9300LACLogModify\UI\obj\Debug\UI.dll
+C:\gitProject\Exos9300LACLogModify\UI\obj\Debug\UI.pdb

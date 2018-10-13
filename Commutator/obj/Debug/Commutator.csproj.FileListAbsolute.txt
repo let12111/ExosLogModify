@@ -1,0 +1,9 @@
+C:\gitProject\Exos9300LACLogModify\Commutator\bin\Debug\Commutator.dll
+C:\gitProject\Exos9300LACLogModify\Commutator\bin\Debug\Commutator.pdb
+C:\gitProject\Exos9300LACLogModify\Commutator\obj\Debug\Commutator.csprojAssemblyReference.cache
+C:\gitProject\Exos9300LACLogModify\Commutator\obj\Debug\Commutator.csproj.CoreCompileInputs.cache
+C:\gitProject\Exos9300LACLogModify\Commutator\obj\Debug\Commutator.dll
+C:\gitProject\Exos9300LACLogModify\Commutator\obj\Debug\Commutator.pdb
+C:\gitProject\Exos9300LACLogModify\Commutator\bin\Debug\Contracts.dll
+C:\gitProject\Exos9300LACLogModify\Commutator\bin\Debug\Contracts.pdb
+C:\gitProject\Exos9300LACLogModify\Commutator\obj\Debug\Commutator.csproj.CopyComplete

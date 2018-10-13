@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contracts
+namespace Contracts.SDO
 {
-    class Point
+    public class Point
     {
+        string PointID { get; set; }
+        string PointName { get; set; }
+        string PointType { get; set; }
+
     }
 }

@@ -1,0 +1,15 @@
+C:\gitProject\Exos9300LACLogModify\Startup\bin\Debug\Startup.exe.config
+C:\gitProject\Exos9300LACLogModify\Startup\bin\Debug\Startup.exe
+C:\gitProject\Exos9300LACLogModify\Startup\bin\Debug\Startup.pdb
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\MainWindow.g.cs
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\App.g.cs
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup_MarkupCompile.cache
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup_MarkupCompile.lref
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\MainWindow.baml
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup.g.resources
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup.Properties.Resources.resources
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup.csproj.GenerateResource.cache
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup.csproj.CoreCompileInputs.cache
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup.exe
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup.pdb
+C:\gitProject\Exos9300LACLogModify\Startup\obj\Debug\Startup.csprojAssemblyReference.cache

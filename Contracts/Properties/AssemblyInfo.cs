@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("Contracts")]
+[assembly: AssemblyTitle("ExosACLogModify")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("69867001-495c-410c-89a4-b06e421eaef4")]
+[assembly: Guid("6db19743-1bae-4019-a482-8a7c6e7eab18")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

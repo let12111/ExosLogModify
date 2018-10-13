@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Contracts.SDO
 {
-    class Person
+    public class Person
     {
         int PersonId { get; set; }
         string PersonName { get; set; }
+
     }
 }
