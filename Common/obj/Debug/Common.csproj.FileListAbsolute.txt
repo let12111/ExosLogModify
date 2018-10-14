@@ -3,3 +3,4 @@ C:\gitExosLogModify\Common\bin\Debug\Common.pdb
 C:\gitExosLogModify\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\gitExosLogModify\Common\obj\Debug\Common.dll
 C:\gitExosLogModify\Common\obj\Debug\Common.pdb
+C:\gitExosLogModify\Common\obj\Debug\Common.csprojAssemblyReference.cache

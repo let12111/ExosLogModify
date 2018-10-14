@@ -9,3 +9,4 @@ C:\gitExosLogModify\Contracts\bin\Debug\Contracts.pdb
 C:\gitExosLogModify\Contracts\obj\Debug\Contracts.csproj.CoreCompileInputs.cache
 C:\gitExosLogModify\Contracts\obj\Debug\Contracts.dll
 C:\gitExosLogModify\Contracts\obj\Debug\Contracts.pdb
+C:\gitExosLogModify\Contracts\obj\Debug\Contracts.csprojAssemblyReference.cache

@@ -13,8 +13,8 @@ C:\gitExosLogModify\Logger\bin\Debug\Logger.dll
 C:\gitExosLogModify\Logger\bin\Debug\Logger.pdb
 C:\gitExosLogModify\Logger\bin\Debug\NLog.dll
 C:\gitExosLogModify\Logger\bin\Debug\NLog.xml
-C:\gitExosLogModify\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
 C:\gitExosLogModify\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
 C:\gitExosLogModify\Logger\obj\Debug\Logger.csproj.CopyComplete
 C:\gitExosLogModify\Logger\obj\Debug\Logger.dll
 C:\gitExosLogModify\Logger\obj\Debug\Logger.pdb
+C:\gitExosLogModify\Logger\obj\Debug\Logger.csprojAssemblyReference.cache

@@ -27,8 +27,8 @@ C:\gitExosLogModify\IntegrationUnitTest\bin\Debug\Microsoft.VisualStudio.TestPla
 C:\gitExosLogModify\IntegrationUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\gitExosLogModify\IntegrationUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\gitExosLogModify\IntegrationUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\gitExosLogModify\IntegrationUnitTest\obj\Debug\IntegrationUnitTest.csprojAssemblyReference.cache
 C:\gitExosLogModify\IntegrationUnitTest\obj\Debug\IntegrationUnitTest.csproj.CoreCompileInputs.cache
 C:\gitExosLogModify\IntegrationUnitTest\obj\Debug\IntegrationUnitTest.csproj.CopyComplete
 C:\gitExosLogModify\IntegrationUnitTest\obj\Debug\IntegrationUnitTest.dll
 C:\gitExosLogModify\IntegrationUnitTest\obj\Debug\IntegrationUnitTest.pdb
+C:\gitExosLogModify\IntegrationUnitTest\obj\Debug\IntegrationUnitTest.csprojAssemblyReference.cache

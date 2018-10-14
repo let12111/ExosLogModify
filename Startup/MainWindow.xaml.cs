@@ -23,6 +23,9 @@ namespace Startup
         public MainWindow()
         {
             InitializeComponent();
+
+            UniversalEditWindow wnd = new UniversalEditWindow();
+            wnd.ShowDialog();
         }
     }
 }

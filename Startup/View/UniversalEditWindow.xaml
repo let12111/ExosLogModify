@@ -25,7 +25,38 @@
                         <RowDefinition Height="40" />
                         <RowDefinition Height="40"/>
                     </Grid.RowDefinitions>
-                    <DataGrid Grid.Row="0"></DataGrid>
+                    <DataGrid Grid.Row="0" ItemsSource="{Binding AllElemens}"   AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding RowItem1}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta1.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RowItem2}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta2.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+
+                            <DataGridTextColumn Binding="{Binding RowItem3}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta3.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RowItem4}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta4.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+
+                        </DataGrid.Columns>
+ 
+                        
+                    </DataGrid>
                     <Grid Grid.Row="1">
                         <DockPanel>
                             <TextBox ></TextBox>
@@ -37,14 +68,45 @@
 
             </GroupBox>
 
-            <GroupBox Header="выбранные"  Grid.Column="1">
+            <GroupBox Header="выбранные"  Grid.Column="1" >
                 <Grid>
 
                     <Grid.RowDefinitions>
                         <RowDefinition/>
                         <RowDefinition Height="40"/>
                     </Grid.RowDefinitions>
-                    <DataGrid Grid.Row="0"></DataGrid>
+                    <DataGrid Grid.Row="0" ItemsSource="{Binding SelectedElements}">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding RowItem1}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta1.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RowItem2}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta2.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+
+                            <DataGridTextColumn Binding="{Binding RowItem3}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta3.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Binding="{Binding RowItem4}" >
+                                <DataGridTextColumn.Header>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta4.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+
+                        </DataGrid.Columns>
+
+                    </DataGrid>
                     <Button Grid.Row="1" Content=">>"></Button>
                 </Grid>
 

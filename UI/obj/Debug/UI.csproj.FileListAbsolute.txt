@@ -8,4 +8,3 @@ C:\gitExosLogModify\UI\bin\Debug\UI.pdb
 C:\gitExosLogModify\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\gitExosLogModify\UI\obj\Debug\UI.dll
 C:\gitExosLogModify\UI\obj\Debug\UI.pdb
-C:\gitExosLogModify\UI\obj\Debug\UI.csprojAssemblyReference.cache

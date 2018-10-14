@@ -9,10 +9,10 @@ namespace Startup.VewModel
     class RowElement
     {
         public string RowID { get; set; }
-        public RowItem RowItem1 { get; set; }
-        public RowItem RowItem2 { get; set; }
-        public RowItem RowItem3 { get; set; }
-        public RowItem RowItem4 { get; set; }
-        public RowItem RowItem5 { get; set; }
+        public string RowItem1 { get; set; }
+        public string RowItem2 { get; set; }
+        public string RowItem3 { get; set; }
+        public string RowItem4 { get; set; }
+        public string RowItem5 { get; set; }
     }
 }

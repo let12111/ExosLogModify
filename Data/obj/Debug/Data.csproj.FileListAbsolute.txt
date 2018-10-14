@@ -6,7 +6,7 @@ C:\gitProject\Exos9300LACLogModify\Data\obj\Debug\Data.pdb
 C:\gitProject\Exos9300LACLogModify\Data\obj\Debug\Data.csprojAssemblyReference.cache
 C:\gitExosLogModify\Data\bin\Debug\Data.dll
 C:\gitExosLogModify\Data\bin\Debug\Data.pdb
-C:\gitExosLogModify\Data\obj\Debug\Data.csprojAssemblyReference.cache
 C:\gitExosLogModify\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
 C:\gitExosLogModify\Data\obj\Debug\Data.dll
 C:\gitExosLogModify\Data\obj\Debug\Data.pdb
+C:\gitExosLogModify\Data\obj\Debug\Data.csprojAssemblyReference.cache

@@ -27,4 +27,6 @@ C:\gitExosLogModify\Startup\obj\Debug\Startup.csproj.GenerateResource.cache
 C:\gitExosLogModify\Startup\obj\Debug\Startup.csproj.CoreCompileInputs.cache
 C:\gitExosLogModify\Startup\obj\Debug\Startup.exe
 C:\gitExosLogModify\Startup\obj\Debug\Startup.pdb
+C:\gitExosLogModify\Startup\obj\Debug\View\UniversalEditWindow.g.cs
+C:\gitExosLogModify\Startup\obj\Debug\View\UniversalEditWindow.baml
 C:\gitExosLogModify\Startup\obj\Debug\Startup.csprojAssemblyReference.cache

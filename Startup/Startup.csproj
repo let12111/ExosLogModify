@@ -54,6 +54,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="VewModel\DataGridColumnsMetaData.cs" />
     <Compile Include="VewModel\RowElement.cs" />
     <Compile Include="VewModel\RowMetadata.cs" />
     <Compile Include="VewModel\RowItem.cs" />
