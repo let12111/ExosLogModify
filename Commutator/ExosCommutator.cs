@@ -149,11 +149,13 @@ WHERE LOGDATE BETWEEN @DATE_BEG AND @DATE_END AND PERSID=@PERS_ID";
                 {
 
                     SqlCommand com = new SqlCommand();
+                    com.Connection = con;
+                    com.CommandText = "insert into LACLOG";
 
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    logger.Log("", ex);
                 }
             }
         }
@@ -161,5 +163,8 @@ WHERE LOGDATE BETWEEN @DATE_BEG AND @DATE_END AND PERSID=@PERS_ID";
         {
             throw new NotImplementedException();
         }
+
+
+        public void DeleteAClog(int logID) { }
     }
 }

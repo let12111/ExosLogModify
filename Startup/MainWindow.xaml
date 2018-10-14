@@ -12,6 +12,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="2">
             <Button>Добавить событие прохода</Button>
@@ -23,14 +24,44 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <GroupBox Grid.Column="0" Header="Персоны">
-                <ListBox></ListBox>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="23"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid Grid.Row="0"/>
+                    <Button Grid.Row="1">изменить</Button>
+                    
+                </Grid>
             </GroupBox>
+
+            <GroupBox Grid.Column="2" Header="События">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="23"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid Grid.Row="0"/>
+                    <Button Grid.Row="1">изменить</Button>
+
+                </Grid>
+            </GroupBox>
+
             <GroupBox Grid.Column="1" Header="Точки">
-                <ListBox/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="23"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid Grid.Row="0"/>
+                    <Button Grid.Row="1">изменить</Button>
+
+                </Grid>
             </GroupBox>
-            <StackPanel Grid.Column="2">
+            <StackPanel Grid.Column="3">
                 <DatePicker ></DatePicker>
                 <DatePicker></DatePicker>
                 <Button>поиск</Button>
