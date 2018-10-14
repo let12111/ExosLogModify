@@ -8,10 +8,12 @@ namespace Contracts.SDO
 {
     public class ACLog
     {
-        int LogId { get; set; }
-        int PersID { get; set; }
-        string PersonName { get; set; }
-        string EventName { get; set; }
-        DateTime LogDate { get; set; }
+        public int LogId { get; set; }
+        public int PersID { get; set; }
+        public string CardNr { get; set; }
+        public string PersonName { get; set; }
+        public int EventID { get; set; }
+        public string EventName { get; set; }
+        public DateTime LogDate { get; set; }
     }
 }

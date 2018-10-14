@@ -13,8 +13,8 @@ namespace Contracts.Interface
         List<Person> GetPersons();
         byte[] GetPersonImage();
         List<ACLog> GetACLogs(DateTime dateBeg, DateTime dateEnd, int persID);
-        void UpdateACLog(ACLog lACLog);
+        void UpdateACLogDate(int logID, DateTime Logdate);
         void InsertAclog(ACLog lACLog);
-        void DeleteAClog(ACLog lACLog);
+        void DeleteAClog( int logID);
     }
 }

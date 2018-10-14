@@ -29,13 +29,21 @@ namespace Commutator
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
+                     
+
 
                     SqlCommand com = new SqlCommand();
                     com.Connection = con;
                     com.Parameters.AddWithValue("@DATE_BEG", dateBeg);
                     com.Parameters.AddWithValue("@DATE_END", dateEnd);
                     com.Parameters.AddWithValue("@PERS_ID", persID);
-                    com.CommandText = "SELECT * FROM LACLOG WHERE LOGDATE BETWEEN @DATE_BEG AND @DATE_END AND PERSID=@PERS_ID";
+                    com.CommandText = @"SELECT LOGID LogId, LOGDATE logDate, NAME PersonName, 
+                      CardNr CardNr,
+                      cft.FixText EventName,
+                        lACLog.RecordType eventID
+                          FROM LACLOG 
+  join cFixText cft on cft.ApplID=lACLog.LogType and cft.LanguageFK='RUS' and cft.TextID=lACLog.RecordType
+WHERE LOGDATE BETWEEN @DATE_BEG AND @DATE_END AND PERSID=@PERS_ID";
                     var sqlDataReader = com.ExecuteReader();
                     return ADOHelper.MapAll<ACLog>(sqlDataReader);
                 }
@@ -49,12 +57,77 @@ namespace Commutator
 
         public List<Event> GetEvents()
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+
+
+
+                    SqlCommand com = new SqlCommand();
+                    com.Connection = con;
+                    com.CommandText = @"select TextID, Fixtext from cFixText where ApplID=6 and LanguageFK='RUS' ";
+                    var sqlDataReader = com.ExecuteReader();
+                    return ADOHelper.MapAll<Event>(sqlDataReader);
+                }
+            }
+            catch (Exception ex)
+            {
+                logger.Log("GetEvents", ex);
+                return new List<Event>();
+            }
+
+
         }
 
-        public byte[] GetPersonImage()
+
+        
+        public byte[] GetPersonImage(int PersID )
         {
-            throw new NotImplementedException();
+            using (SqlConnection SQLCon = new SqlConnection(connectionString))
+            {
+
+                try
+                {
+                    List<SqlParameter> prms = new List<SqlParameter>();
+                    SqlCommand SQLC = null;
+                    
+                        SQLC = new SqlCommand("select Picture from hperson where PersID=@PersID", SQLCon);
+
+                        SqlParameter sqlParameter = new SqlParameter("PersID", System.Data.SqlDbType.Int);
+                        sqlParameter.Value = PersID;
+                        prms.Add(sqlParameter);
+ 
+
+                    SQLCon.Open();
+                   var ret=  SQLC.ExecuteScalar();
+
+
+                    if (ret == DBNull.Value)
+                    {
+                        return null;
+                    }
+                    else
+                    {
+                        return (byte[])ret;
+                    }
+                  
+
+
+
+                }
+                catch (Exception ex)
+                {
+                    logger.Log("",ex);
+                }
+                return null;
+
+            }
+
+
+
+
         }
 
         public List<Person> GetPersons()
@@ -69,10 +142,22 @@ namespace Commutator
 
         public void InsertAclog(ACLog lACLog)
         {
-            throw new NotImplementedException();
-        }
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
 
-        public void UpdateACLog(ACLog lACLog)
+                try
+                {
+
+                    SqlCommand com = new SqlCommand();
+
+                }
+                catch
+                {
+
+                }
+            }
+        }
+        public void UpdateACLogDate(int logID, DateTime Logdate)
         {
             throw new NotImplementedException();
         }
