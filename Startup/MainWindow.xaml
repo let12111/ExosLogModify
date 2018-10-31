@@ -4,15 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Startup"
+        xmlns:dameer="clr-namespace:Loya.Dameer"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
-            
+
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="2">
             <Button>Добавить событие прохода</Button>
@@ -34,7 +35,7 @@
                     </Grid.RowDefinitions>
                     <DataGrid Grid.Row="0"/>
                     <Button Grid.Row="1">изменить</Button>
-                    
+
                 </Grid>
             </GroupBox>
 
@@ -44,8 +45,14 @@
                         <RowDefinition/>
                         <RowDefinition Height="23"/>
                     </Grid.RowDefinitions>
-                    <DataGrid Grid.Row="0"/>
-                    <Button Grid.Row="1">изменить</Button>
+                    <DataGrid Grid.Row="0">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding EventName}" Header="Событие доступа"  IsReadOnly="True"></DataGridTextColumn>
+                        </DataGrid.Columns>
+
+                    </DataGrid>
+                    <Button Command="{Binding EditCommandEvents}" Grid.Row="1">изменить</Button>
 
                 </Grid>
             </GroupBox>
@@ -56,17 +63,37 @@
                         <RowDefinition/>
                         <RowDefinition Height="23"/>
                     </Grid.RowDefinitions>
-                    <DataGrid Grid.Row="0"/>
-                    <Button Grid.Row="1">изменить</Button>
+                    <DataGrid Grid.Row="0">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding PointName}" Header="Название точки"  IsReadOnly="True"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Command="{Binding EditCommandPoints}"  Grid.Row="1">изменить</Button>
 
                 </Grid>
             </GroupBox>
             <StackPanel Grid.Column="3">
-                <DatePicker ></DatePicker>
-                <DatePicker></DatePicker>
-                <Button>поиск</Button>
+                <dameer:Dameer  Margin="5" Grid.Row="1" Grid.Column="1" ShowCheckBox="False" CustomFormat="dd.MM.yyyy:HH:mm"  Format="Custom" x:Name="DateBegLog" />
+
+                <dameer:Dameer Margin="5"  Grid.Row="1" Grid.Column="1" ShowCheckBox="False" CustomFormat="dd.MM.yyyy:HH:mm"  Format="Custom" x:Name="DateEndLog" />
+
+<Button Command="{Binding FindCommand}" >поиск</Button>
             </StackPanel>
         </Grid>
-        <DataGrid Grid.Row="1"></DataGrid>
+        <DataGrid Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding LogDate  ,StringFormat={}{0:dd.MM.yyyy HH:mm}}" Header="Дата события"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding PostName}" Header="Пост"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding FIO}" Header="ФИО"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Message}" Header="Сообщение"></DataGridTextColumn>
+
+                <DataGridTextColumn Binding="{Binding CardNr}" Header="Номер радиокарты"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding DateLastAC ,StringFormat={}{0:dd.MM.yyyy HH:mm}}" Header="Дата последнего прохода"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding LastAC}" Header="Место последнего прохода"></DataGridTextColumn>
+                <!--<DataGridTextColumn Binding="{Binding Event}" Header="Событие доступа"></DataGridTextColumn>-->
+
+            </DataGrid.Columns>
+
+        </DataGrid>
     </Grid>
 </Window>

@@ -11,7 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Startup.messages;
 using Startup.VewModel;
+using GalaSoft.MvvmLight.Messaging;
 namespace Startup
 {
     /// <summary>
@@ -22,7 +24,11 @@ namespace Startup
         public UniversalEditWindow()
         {
             InitializeComponent();
-            this.DataContext = new UniversalWindowVM();
+            //    this.DataContext = new UniversalWindowVM();
+            //   UniversalEditWindowCancel
+            Messenger.Default.Register<UniversalEditWindowCancel>(this, (x) => { this.Close(); });
         }
+
+
     }
 }

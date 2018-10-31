@@ -9,6 +9,6 @@ namespace Startup.VewModel
     class RowMetadata
     {
      public   string ColumName { get; set; }
-     public   bool isEnable { get; set; }
+     public   bool IsEnable { get; set; }
     }
 }

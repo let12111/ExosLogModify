@@ -1,0 +1,42 @@
+﻿<Window x:Class="Startup.ConnectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Startup"
+        mc:Ignorable="d"
+        Title="ConnectionWindow" Height="200" Width="400">
+    <Grid>
+
+        <GroupBox Margin="7" Header="Настройки подключения к серверу СКУД">
+            <StackPanel>
+
+
+                <DockPanel>
+                    <Label Width="220">Имя сервера</Label>
+                    <TextBox Name="exServerName"></TextBox>
+                </DockPanel>
+
+                <DockPanel>
+                    <Label Width="220">База данных</Label>
+                    <TextBox Name="exDatabase">Exos9300
+                        </TextBox>
+                </DockPanel>
+
+                <DockPanel>
+                    <Label Width="220">Имя пользоваеля</Label>
+                    <TextBox Name="exLogin"></TextBox>
+                </DockPanel>
+
+
+                <DockPanel>
+                    <Label Width="220">Пароль</Label>
+                    <TextBox Name="exPassword"></TextBox>
+                </DockPanel>
+                
+                <Button Content="Подключиться" Command="{Binding ConnectionCommand}" Click="Button_Click"></Button>
+            </StackPanel>
+        </GroupBox>
+
+    </Grid>
+</Window>

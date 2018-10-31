@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Startup.VewModel
 {
-    class RowItem
+    class Daamer
     {
-
-        public string Value { get; set; }
-        public RowMetadata MetaData {get; set;}
-
     }
 }

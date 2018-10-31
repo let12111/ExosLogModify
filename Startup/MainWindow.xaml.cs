@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Startup.VewModel;
 namespace Startup
 {
     /// <summary>
@@ -24,8 +24,8 @@ namespace Startup
         {
             InitializeComponent();
 
-            UniversalEditWindow wnd = new UniversalEditWindow();
-            wnd.ShowDialog();
+            this.DataContext = new MainWindowVM();
+            
         }
     }
 }

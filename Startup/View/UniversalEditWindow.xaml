@@ -25,33 +25,36 @@
                         <RowDefinition Height="40" />
                         <RowDefinition Height="40"/>
                     </Grid.RowDefinitions>
-                    <DataGrid Grid.Row="0" ItemsSource="{Binding AllElemens}"   AutoGenerateColumns="False">
+                    <DataGrid Grid.Row="0" ItemsSource="{Binding AllElemens}" SelectedItem="{Binding AllItemsSelectedItem}"  IsReadOnly="True"  AutoGenerateColumns="False">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Binding="{Binding RowItem1}" >
+                            <DataGridTextColumn Binding="{Binding RowItem1}"   >
                                 <DataGridTextColumn.Header>
                                     <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta1.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
                                 </DataGridTextColumn.Header>
                             </DataGridTextColumn>
 
-                            <DataGridTextColumn Binding="{Binding RowItem2}" >
+                            <DataGridTextColumn Binding="{Binding RowItem1}"   >
                                 <DataGridTextColumn.Header>
                                     <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta2.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
                                 </DataGridTextColumn.Header>
                             </DataGridTextColumn>
 
-
-                            <DataGridTextColumn Binding="{Binding RowItem3}" >
+                            <DataGridTextColumn Binding="{Binding RowItem1}"   >
                                 <DataGridTextColumn.Header>
                                     <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta3.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
                                 </DataGridTextColumn.Header>
                             </DataGridTextColumn>
 
-                            <DataGridTextColumn Binding="{Binding RowItem4}" >
+
+                            <DataGridTextColumn Binding="{Binding RowItem1}"   >
                                 <DataGridTextColumn.Header>
-                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta4.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
+                                    <Label Content="{Binding DataContext.ColumnsMetaData.ColumnMeta4z.ColumName, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" ></Label>
                                 </DataGridTextColumn.Header>
                             </DataGridTextColumn>
 
+                          
+
+ 
 
                         </DataGrid.Columns>
  
@@ -63,7 +66,7 @@
                             <Button Width="50">поиск</Button>
                         </DockPanel>
                     </Grid>
-                    <Button Grid.Row="2" Content=">>"></Button>
+                    <Button Grid.Row="2" Command="{Binding AddCommand}" Content="&gt;&gt;"></Button>
                 </Grid>
 
             </GroupBox>
@@ -75,7 +78,7 @@
                         <RowDefinition/>
                         <RowDefinition Height="40"/>
                     </Grid.RowDefinitions>
-                    <DataGrid Grid.Row="0" ItemsSource="{Binding SelectedElements}">
+                    <DataGrid Grid.Row="0"  ItemsSource="{Binding SelectedElements}"  SelectedItem="{Binding SelectedItemSelectedItems}" IsReadOnly="True" AutoGenerateColumns="False">
 
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding RowItem1}" >
@@ -107,11 +110,19 @@
                         </DataGrid.Columns>
 
                     </DataGrid>
-                    <Button Grid.Row="1" Content=">>"></Button>
+                    <Button Grid.Row="1"  Command="{Binding RemoveCommand}" Content="&lt;&lt;"></Button>
                 </Grid>
 
             </GroupBox>
 
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Command="{Binding OkCommand}">ok</Button>
+            <Button Grid.Column="1" Command="{Binding CancelCommand}" >отмена</Button>
         </Grid>
     </Grid>
 </Window>

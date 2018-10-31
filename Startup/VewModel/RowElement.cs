@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Startup.VewModel
 {
-    class RowElement
+  public  class RowElement
     {
         public string RowID { get; set; }
         public string RowItem1 { get; set; }
